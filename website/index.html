@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Studybeat — AI Study Soundscapes</title>
+  <meta name="description" content="Your personal AI-powered study companion that creates the perfect study environment." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="logo" href="#">Studybeat</a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#themes">Themes</a>
+      <a href="#features">Features</a>
+    </nav>
+    <a class="btn btn-ghost" href="#waitlist">Join waitlist</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="brand-mark">Studybeat</p>
+        <h1>Study soundscapes that evolve with you.</h1>
+        <p class="lede">
+          Tell Studybeat your subject, stress, and time left — it builds a living
+          ambient mix that adapts as your focus changes.
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#waitlist">Get early access</a>
+          <a class="btn btn-ghost" href="#how">See how it works</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="phone">
+          <div class="phone-glow"></div>
+          <div class="phone-screen">
+            <p class="phone-greet">Good Evening, Jonah</p>
+            <div class="phone-session">
+              <span>📚 Biology</span>
+              <span class="muted">7:00–8:30 PM</span>
+            </div>
+            <div class="phone-timer">43:21</div>
+            <div class="phone-bar"><i style="width:72%"></i></div>
+            <p class="phone-music">🐠 Aquarium · 55 BPM · Soft piano</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section">
+      <h2>One session. A soundscape that listens.</h2>
+      <p class="section-lede">From the moment you start, Studybeat chooses tempo, instruments, ambience, and transitions — then reshapes them every fifteen minutes.</p>
+      <ol class="flow">
+        <li><strong>You set the session</strong><span>Subject, duration, stress, energy, goal.</span></li>
+        <li><strong>AI composes the mix</strong><span>Theme, BPM, layers, no vocals.</span></li>
+        <li><strong>Focus checks adapt it</strong><span>Richer when focused. Simpler when distracted. Slower when stressed.</span></li>
+      </ol>
+    </section>
+
+    <section id="themes" class="section themes">
+      <h2>Music worlds for every subject</h2>
+      <p class="section-lede">Aquarium for biology nights. Planetarium for late physics. Library when you need quiet wood and paper.</p>
+      <div class="theme-grid">
+        <article><h3>Aquarium</h3><p>Soft piano, ocean ambience, whale song.</p></article>
+        <article><h3>Planetarium</h3><p>Warm synth pads, space hush, slow piano.</p></article>
+        <article><h3>Library</h3><p>Fireplace, paper, clock, wood room tone.</p></article>
+        <article><h3>Forest</h3><p>Rain, birds, wind, distant river.</p></article>
+        <article><h3>Electronic</h3><p>Lo-fi, synthwave, minimal beats.</p></article>
+        <article><h3>Classical</h3><p>Solo piano, strings, soft orchestra.</p></article>
+        <article><h3>Coffee Shop</h3><p>Cafe murmur, espresso, jazz piano.</p></article>
+        <article><h3>Fantasy</h3><p>Elven forests, temples, gentle magic.</p></article>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <h2>Built for deep work</h2>
+      <p class="section-lede">Focus Mode, Pomodoro transitions, and an AI coach that notices when your evening biology blocks outperform the morning ones.</p>
+      <ul class="feature-list">
+        <li>
+          <h3>Focus Mode</h3>
+          <p>Minimal phone UI. Large timer. Next break countdown. Nothing else.</p>
+        </li>
+        <li>
+          <h3>Pomodoro Engine</h3>
+          <p>25/5, 45/10, 50/10, 90/20, or custom — music shifts with every break.</p>
+        </li>
+        <li>
+          <h3>AI Coach</h3>
+          <p>Patterns across stress, themes, and subjects turned into gentle guidance.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="waitlist" class="section waitlist">
+      <h2>Join the Studybeat waitlist</h2>
+      <p class="section-lede">Be first to try adaptive study soundscapes on iOS and Android.</p>
+      <form class="waitlist-form" action="#" method="post">
+        <label class="sr-only" for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@university.edu" />
+        <button class="btn btn-primary" type="submit">Request access</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="logo">Studybeat</span>
+    <p>Study smarter. Sound better.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
