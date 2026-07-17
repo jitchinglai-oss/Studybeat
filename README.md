@@ -1,3 +1,4 @@
+piano
 # Studybeat
 
 Your personal AI-powered study companion that creates the perfect study environment.
